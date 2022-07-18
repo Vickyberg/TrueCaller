@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/trueCaller-java.iml" filepath="$PROJECT_DIR$/trueCaller-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrueCaller-Java.iml" filepath="$PROJECT_DIR$/TrueCaller-Java.iml" />
     </modules>
   </component>
 </project>
