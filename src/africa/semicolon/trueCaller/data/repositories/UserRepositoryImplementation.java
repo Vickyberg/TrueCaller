@@ -30,6 +30,8 @@ public class UserRepositoryImplementation implements UserRepository {
 
     @Override
     public void delete(int id) {
+    Contact foundContact = findById(id);
+    contacts.remove(foundContact);
 
     }
 
