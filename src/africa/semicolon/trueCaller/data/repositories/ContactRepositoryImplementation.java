@@ -26,7 +26,6 @@ public class ContactRepositoryImplementation implements ContactRepository{
     @Override
     public void delete(Contact contact) {
 
-
     }
 
     @Override
