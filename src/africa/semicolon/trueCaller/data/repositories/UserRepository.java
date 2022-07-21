@@ -1,16 +1,18 @@
 package africa.semicolon.trueCaller.data.repositories;
 
-import africa.semicolon.trueCaller.data.models.Contact;
+import africa.semicolon.trueCaller.data.models.User;
 
 import java.util.List;
 
 public interface UserRepository {
-    Contact save(Contact contact);
-    void delete(Contact contact);
+    User save(User user);
+    void delete(User user);
     void delete(int id);
-    List<Contact> findAll();
+    List<User> findAll();
 
     int count();
 
-    Contact findById(int id);
+    User findById(int id);
+
+    int getId();
 }

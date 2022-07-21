@@ -1,21 +1,11 @@
-package africa.semicolon.trueCaller.data.models;
+package africa.semicolon.trueCaller.dtos.request;
 
-public class Contact {
-    private int id; //identifier
-
+public class RegisterRequest {
     private String firstName;
     private String secondName;
     private String phoneNumber;
     private String email;
     private String password;
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getFirstName() {
         return firstName;
@@ -49,4 +39,11 @@ public class Contact {
         this.email = email;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

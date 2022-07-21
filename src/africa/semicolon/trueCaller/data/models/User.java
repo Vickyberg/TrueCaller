@@ -1,20 +1,20 @@
 package africa.semicolon.trueCaller.data.models;
 
-public class Contact {
-    private int id; //identifier
-
+public class User {
+    private int id;
     private String firstName;
-    private String secondName;
+    private String lastName;
     private String phoneNumber;
     private String email;
     private String password;
 
-    public int getId() {
-        return id;
-    }
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getFirstName() {
@@ -25,12 +25,12 @@ public class Contact {
         this.firstName = firstName;
     }
 
-    public String getSecondName() {
-        return secondName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setSecondName(String secondName) {
-        this.secondName = secondName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getPhoneNumber() {
@@ -48,5 +48,14 @@ public class Contact {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
 
 }

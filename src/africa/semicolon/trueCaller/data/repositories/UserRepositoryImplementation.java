@@ -1,57 +1,66 @@
 package africa.semicolon.trueCaller.data.repositories;
 
-import africa.semicolon.trueCaller.data.models.Contact;
+import africa.semicolon.trueCaller.data.models.User;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class UserRepositoryImplementation implements UserRepository {
 
-    private  List<Contact> contacts = new ArrayList<>();
+    private  List<User> users = new ArrayList<>();
     private  int counter;
     @Override
-    public Contact save(Contact contact) {
-        counter++;
-        for (var myContact : contacts){
-            if(contact.getId() == myContact.getId()){
+    public User save(User user) {
+
+        for (var myUser : users){
+            if(user.getId() == myUser.getId()){
                 counter++;
             }
         }
-       contacts.add(contact);
-        contact.setId(counter);
-       return contact;
+
+
+        user.setId(counter);
+        users.add(user);
+
+
+       return user;
 
     }
 
     @Override
-    public void delete(Contact contact) {
+    public void delete(User user) {
 
     }
 
     @Override
     public void delete(int id) {
-    Contact foundContact = findById(id);
-    contacts.remove(foundContact);
+    User foundContact = findById(id);
+    users.remove(foundContact);
 
     }
 
     @Override
-    public List<Contact> findAll() {
+    public List<User> findAll() {
         return null;
     }
 
     @Override
     public int count() {
-        return contacts.size() ;
+        return users.size() ;
     }
 
     @Override
-    public Contact findById(int id) {
-        for (var contact : contacts){
-            if(contact.getId() == id){
-                return contact;
+    public User findById(int id) {
+        for (var myUser : users){
+            if(myUser.getId() == id){
+                return myUser;
             }
         }
         return null;
+    }
+
+    @Override
+    public int getId() {
+        return users.size() ;
     }
 }

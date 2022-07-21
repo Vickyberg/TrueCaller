@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff3b7aa9-6f91-4fb0-951f-28c03262c41b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/request/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/RegisterUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/repositories/UserRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/repositories/UserRepositoryImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/data/repositories/UserImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/data/repositories/UserImplementationTest.java" afterDir="false" />
     </list>
@@ -34,33 +43,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/Olamide/IdeaProjects/trueCaller-java",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Olamide/IdeaProjects/trueCaller-java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.semicolon.trueCaller.services" />
       <recent name="africa.semicolon.trueCaller.data.repositories" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="africa.semicolon.trueCaller.services" />
       <recent name="africa.semicolon.trueCaller.data.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserImplementationTest.findAllContacts_WithIdTest">
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration name="UserImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TrueCaller-Java" />
       <extension name="coverage">
@@ -92,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserImplementationTest.testThatAllContactsCanBeGottenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserImplementationTest.testThatContactCanBeDeleted_FindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TrueCaller-Java" />
       <extension name="coverage">
         <pattern>
@@ -102,13 +115,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.data.repositories" />
       <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.data.repositories.UserImplementationTest" />
-      <option name="METHOD_NAME" value="testThatAllContactsCanBeGottenTest" />
+      <option name="METHOD_NAME" value="testThatContactCanBeDeleted_FindById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserImplementationTest.testThatContactCanBeDeleted_FindByIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserImplementationTest.testThatUserCanBeCreated_And_ContactCanBeSaved_And_ContactCanBeFoundById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TrueCaller-Java" />
       <extension name="coverage">
         <pattern>
@@ -118,35 +131,34 @@
       </extension>
       <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.data.repositories" />
       <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.data.repositories.UserImplementationTest" />
-      <option name="METHOD_NAME" value="testThatContactCanBeDeleted_FindByIn" />
+      <option name="METHOD_NAME" value="testThatUserCanBeCreated_And_ContactCanBeSaved_And_ContactCanBeFoundById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserImplementationTest.testThatUserCanBeCreated_And_ContactCanBeSaved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TrueCaller-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="africa.semicolon.trueCaller.data.repositories.*" />
+          <option name="PATTERN" value="africa.semicolon.trueCaller.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.data.repositories.UserImplementationTest" />
-      <option name="METHOD_NAME" value="testThatUserCanBeCreated_And_ContactCanBeSaved" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.services.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserImplementationTest.testThatUserCanBeCreated_And_ContactCanBeSaved_And_ContactCanBeFoundById" />
         <item itemvalue="JUnit.UserImplementationTest.findAllContacts_WithIdTest" />
+        <item itemvalue="JUnit.UserImplementationTest.testThatContactCanBeDeleted_FindById" />
         <item itemvalue="JUnit.UserImplementationTest" />
-        <item itemvalue="JUnit.UserImplementationTest.testThatAllContactsCanBeGottenTest" />
-        <item itemvalue="JUnit.UserImplementationTest.testThatContactCanBeDeleted_FindByIn" />
-        <item itemvalue="JUnit.UserImplementationTest.testThatUserCanBeCreated_And_ContactCanBeSaved" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +171,9 @@
       <option name="presentableId" value="Default" />
       <updated>1658148227947</updated>
       <workItem from="1658148229867" duration="12738000" />
-      <workItem from="1658185633472" duration="7146000" />
+      <workItem from="1658185633472" duration="7931000" />
+      <workItem from="1658322051596" duration="11492000" />
+      <workItem from="1658386273780" duration="3567000" />
     </task>
     <servers />
   </component>
