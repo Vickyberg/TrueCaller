@@ -1,5 +1,8 @@
 package africa.semicolon.trueCaller.data.models;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class User {
     private int id;
     private String firstName;
@@ -8,7 +11,7 @@ public class User {
     private String email;
     private String password;
     private String username;
-
+private List<Contact> contacts = new ArrayList<>();
 
     public void setId(int id) {
         this.id = id;
@@ -66,5 +69,9 @@ public class User {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public List<Contact> getContacts() {
+        return contacts;
     }
 }

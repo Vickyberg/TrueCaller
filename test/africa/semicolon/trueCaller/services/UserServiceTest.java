@@ -47,13 +47,14 @@ class UserServiceTest {
 
     RegisterRequest request2 = new RegisterRequest();
     request.setEmail("ola@gmail.com");
-    request.setFirstName("wahala");
-    request.setSecondName("jdj");
-    request.setPhoneNumber("241313");
-    request.setPassword("newPassWord");
+    request.setFirstName("Ola");
+    request.setSecondName("Ope");
+    request.setPhoneNumber("24131");
+    request.setPassword("ilovejesus77");
+    userService.register(request);
 
     assertEquals(1,userService.getNumberOfUsers());
-    assertThrows(UserExistsException.class, () -> userService.register(request2));
+    assertThrows(UserExistsException.class,()-> userService.register(request2));
 
 }
 
@@ -76,6 +77,8 @@ class UserServiceTest {
     addContactRequest.setEmail("Ucj@gmail.com");
     addContactRequest.setPhoneNumber("552428024");
     userService.addContact(addContactRequest);
+
+    assertEquals(1,userService.findContactsBelongingTo("ola@mail.com").size());
 
 }
 }

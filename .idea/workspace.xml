@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff3b7aa9-6f91-4fb0-951f-28c03262c41b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/request/AddContactRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/AddContactResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/UserExistsException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/RegisterUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/RegisterUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/data/repositories/UserImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/data/repositories/UserImplementationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +68,7 @@
       <recent name="africa.semicolon.trueCaller.data.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.duplicateEmailThrowsException">
+  <component name="RunManager" selected="JUnit.UserServiceTest.addContactTest">
     <configuration name="UserImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TrueCaller-Java" />
       <extension name="coverage">
@@ -88,22 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserImplementationTest.testThatContactCanBeDeleted_FindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TrueCaller-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.trueCaller.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.data.repositories.UserImplementationTest" />
-      <option name="METHOD_NAME" value="testThatContactCanBeDeleted_FindById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TrueCaller-Java" />
       <extension name="coverage">
@@ -115,6 +95,22 @@
       <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.services" />
       <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.services.UserServiceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.addContactTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TrueCaller-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.trueCaller.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.services.UserServiceTest" />
+      <option name="METHOD_NAME" value="addContactTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.addContactTest" />
         <item itemvalue="JUnit.UserServiceTest.duplicateEmailThrowsException" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.UserServiceTest.registerTest" />
         <item itemvalue="JUnit.UserImplementationTest" />
-        <item itemvalue="JUnit.UserImplementationTest.testThatContactCanBeDeleted_FindById" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +172,7 @@
       <workItem from="1658612186233" duration="596000" />
       <workItem from="1658675455657" duration="302000" />
       <workItem from="1658736021860" duration="2262000" />
-      <workItem from="1658868234265" duration="6354000" />
+      <workItem from="1658868234265" duration="10564000" />
     </task>
     <servers />
   </component>
