@@ -1,6 +1,8 @@
 package africa.semicolon.trueCaller.services;
 
+import africa.semicolon.trueCaller.dtos.request.AddContactRequest;
 import africa.semicolon.trueCaller.dtos.request.RegisterRequest;
+import exception.UserExistsException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -49,6 +51,31 @@ class UserServiceTest {
     request.setSecondName("jdj");
     request.setPhoneNumber("241313");
     request.setPassword("newPassWord");
+
+    assertEquals(1,userService.getNumberOfUsers());
+    assertThrows(UserExistsException.class, () -> userService.register(request2));
+
+}
+
+@Test
+    public void addContactTest(){
+        IUserService userService = new UserService();
+        RegisterRequest request = new RegisterRequest();
+
+        request.setEmail("Olns@gmail.com");
+        request.setFirstName("Olamide");
+        request.setSecondName("Victor");
+        request.setPassword("131");
+        request.setPhoneNumber("24256524");
+        userService.register(request);
+
+    AddContactRequest addContactRequest = new AddContactRequest();
+    addContactRequest.setUserEmail("Ola@gmail.com");
+    addContactRequest.setFirstName("UCJ");
+    addContactRequest.setLastName("JJC");
+    addContactRequest.setEmail("Ucj@gmail.com");
+    addContactRequest.setPhoneNumber("552428024");
+    userService.addContact(addContactRequest);
 
 }
 }

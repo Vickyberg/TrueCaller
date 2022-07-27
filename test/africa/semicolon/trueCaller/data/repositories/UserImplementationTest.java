@@ -41,7 +41,7 @@ public class UserImplementationTest {
         userRepository.save(user2);
 
         assertEquals(2,userRepository.count());
-        userRepository.delete(1);
+        userRepository.delete(1 );
         assertEquals(1,userRepository.count());
 
 

@@ -4,7 +4,9 @@ package africa.semicolon.trueCaller.services;
 import africa.semicolon.trueCaller.data.models.User;
 import africa.semicolon.trueCaller.data.repositories.UserRepository;
 import africa.semicolon.trueCaller.data.repositories.UserRepositoryImplementation;
+import africa.semicolon.trueCaller.dtos.request.AddContactRequest;
 import africa.semicolon.trueCaller.dtos.request.RegisterRequest;
+import africa.semicolon.trueCaller.dtos.responses.AddContactResponse;
 import africa.semicolon.trueCaller.dtos.responses.RegisterUserResponse;
 
 public class UserService implements  IUserService{
@@ -25,12 +27,19 @@ private RegisterUserResponse userResponse = new RegisterUserResponse();
         //copy fields from request to new user
         userRepository.save(user);
         //save new user into repository
-        return userResponse;
+        RegisterUserResponse response = new RegisterUserResponse();
+        response.setMessage("Success!!!");
+        return response;
 
     }
 
     @Override
     public int getNumberOfUsers() {
-        return 0;
+        return userRepository.count();
+    }
+
+    @Override
+    public AddContactResponse addContact(AddContactRequest request) {
+        return null;
     }
 }
