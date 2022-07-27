@@ -14,5 +14,8 @@ public interface UserRepository {
 
     User findById(int id);
 
+
     int getId();
+
+    User findByUSerName(String username);
 }

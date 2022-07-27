@@ -29,8 +29,9 @@ public class UserRepositoryImplementation implements UserRepository {
 
     @Override
     public void delete(User user) {
-
+        users.remove(user);
     }
+
 
     @Override
     public void delete(int id) {
@@ -51,7 +52,7 @@ public class UserRepositoryImplementation implements UserRepository {
 
     @Override
     public User findById(int id) {
-        for (var myUser : users){
+        for (User myUser : users){
             if(myUser.getId() == id){
                 return myUser;
             }
@@ -59,8 +60,19 @@ public class UserRepositoryImplementation implements UserRepository {
         return null;
     }
 
+
     @Override
     public int getId() {
         return users.size() ;
+    }
+
+    @Override
+    public User findByUSerName(String username) {
+        for(User user : users){
+            if(user.getUsername().equalsIgnoreCase(username)){
+                return  user;
+            }
+        }
+        return null;
     }
 }

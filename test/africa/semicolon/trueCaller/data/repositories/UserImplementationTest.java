@@ -32,9 +32,17 @@ public class UserImplementationTest {
         user.setPhoneNumber("935322");
         user.setEmail("Ooen31@gmail.com");
         userRepository.save(user);//save user
-        assertEquals(1,userRepository.count());
+
+        User user2 = new User();
+        user2.setFirstName("Ol");
+        user2.setLastName("Vicor");
+        user2.setPhoneNumber("935322");
+        user2.setEmail("Oon31@gmail.com");
+        userRepository.save(user2);
+
+        assertEquals(2,userRepository.count());
         userRepository.delete(1);
-        assertEquals(0,userRepository.count());
+        assertEquals(1,userRepository.count());
 
 
     }
