@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff3b7aa9-6f91-4fb0-951f-28c03262c41b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/ContactService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/UserServiceTest.java" afterDir="false" />
     </list>
@@ -55,9 +54,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.semicolon.trueCaller.services" />
       <recent name="africa.semicolon.trueCaller.dtos.request" />
       <recent name="africa.semicolon.trueCaller.dtos.responses" />
-      <recent name="africa.semicolon.trueCaller.services" />
       <recent name="africa.semicolon.trueCaller.data.repositories" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -172,7 +171,7 @@
       <workItem from="1658612186233" duration="596000" />
       <workItem from="1658675455657" duration="302000" />
       <workItem from="1658736021860" duration="2262000" />
-      <workItem from="1658868234265" duration="10564000" />
+      <workItem from="1658868234265" duration="13324000" />
     </task>
     <servers />
   </component>

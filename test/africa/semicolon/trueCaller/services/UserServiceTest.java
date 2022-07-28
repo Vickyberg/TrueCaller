@@ -12,7 +12,7 @@ class UserServiceTest {
     private IUserService userService;
     @BeforeEach
     void setUserService(){
-        userService = new UserService();
+        userService = new UserService(contactService);
     }
 
     @Test
@@ -60,7 +60,7 @@ class UserServiceTest {
 
 @Test
     public void addContactTest(){
-        IUserService userService = new UserService();
+        IUserService userService = new UserService(contactService);
         RegisterRequest request = new RegisterRequest();
 
         request.setEmail("Olns@gmail.com");
