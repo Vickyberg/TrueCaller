@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3b7aa9-6f91-4fb0-951f-28c03262c41b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/ContactServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/utils/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/utils/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/Contact.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/utils/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/utils/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImplementationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/data/repositories/UserImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/data/repositories/UserImplementationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <recent name="africa.semicolon.trueCaller.data.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContactServiceTest">
+  <component name="RunManager" selected="Spring Boot.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.utils.Main" />
       <module name="TrueCaller-Java" />
@@ -96,21 +93,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactRepositoryImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TrueCaller-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.trueCaller.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.data.repositories.ContactRepositoryImplementationTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="TrueCaller-Java" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="africa.semicolon.trueCaller.utils.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.trueCaller.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ContactServiceTest" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.UserImplementationTest" />
-        <item itemvalue="JUnit.ContactRepositoryImplementationTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +181,7 @@
       <workItem from="1658675455657" duration="302000" />
       <workItem from="1658736021860" duration="2262000" />
       <workItem from="1658868234265" duration="18320000" />
-      <workItem from="1659020516677" duration="16004000" />
+      <workItem from="1659020516677" duration="16976000" />
     </task>
     <servers />
   </component>

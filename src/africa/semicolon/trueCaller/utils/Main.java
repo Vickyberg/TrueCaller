@@ -13,7 +13,7 @@ public class Main {
     private static UserController userController = new UserController();
     private  static  final Scanner keyboardInput = new Scanner(System.in);
     public static void main(String[] args) {
-//        SpringApplication.run(Main.class, args);
+        SpringApplication.run(Main.class, args);
         mainMenu();
 
     }
