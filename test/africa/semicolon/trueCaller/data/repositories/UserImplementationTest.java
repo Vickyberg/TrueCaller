@@ -9,7 +9,7 @@ public class UserImplementationTest {
 
     @Test
     void testThatUserCanBeCreated_And_ContactCanBeSaved_And_ContactCanBeFoundById(){
-        UserRepository userRepository = new UserRepositoryImplementation();//user creation
+        UserRepository userRepository = new UserRepositoryImpl();//user creation
         User user = new User();
         user.setFirstName("Ola");
         user.setLastName("Victor");
@@ -25,7 +25,7 @@ public class UserImplementationTest {
 
     @Test
     void testThatContactCanBeDeleted_FindById(){
-        UserRepository userRepository = new UserRepositoryImplementation();//user creation
+        UserRepository userRepository = new UserRepositoryImpl();//user creation
         User user = new User();
         user.setFirstName("Ola");
         user.setLastName("Victor");
@@ -48,7 +48,7 @@ public class UserImplementationTest {
     }
     @Test
     void findAllContacts_WithIdTest(){
-        UserRepository userRepository = new UserRepositoryImplementation();//user creation
+        UserRepository userRepository = new UserRepositoryImpl();//user creation
         User user = new User();
         user.setFirstName("Ola");
         user.setLastName("Victor");

@@ -13,7 +13,7 @@ public class Main {
     private static UserController userController = new UserController();
     private  static  final Scanner keyboardInput = new Scanner(System.in);
     public static void main(String[] args) {
-        SpringApplication.run(Main.class, args);
+//        SpringApplication.run(Main.class, args);
         mainMenu();
 
     }
@@ -65,6 +65,7 @@ public class Main {
         request.setPhoneNumber(input("Enter phone number: "));
         request.setEmail(input("Enter email: "));
         request.setPassword(input("Enter password: "));
+        request.setUsername(input("Enter username: "));
         userController.registerUser(request);
         mainMenu();
 

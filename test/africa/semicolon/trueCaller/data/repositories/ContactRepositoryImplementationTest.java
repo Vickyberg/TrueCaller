@@ -9,11 +9,11 @@ public class ContactRepositoryImplementationTest {
 
 @Test
     void saveContact_CountIncreasesTest(){
-    ContactRepository contactRepository = new ContactRepositoryImplementation();
+    ContactRepository contactRepository = new ContactRepositoryImpl();
     Contact contact = new Contact();
     contact.setPhoneNumber("0989989");
     contact.setFirstName("Ojo");
-    contact.setSecondName("oJo");
+    contact.setLastName("oJo");
     contact.setEmail("ojo@gmail.com");
 
     contactRepository.save(contact);
@@ -21,11 +21,11 @@ public class ContactRepositoryImplementationTest {
 }
  @Test
     void saveContact_findByIdTest(){
-    ContactRepository contactRepository = new ContactRepositoryImplementation();
+    ContactRepository contactRepository = new ContactRepositoryImpl();
      Contact contact = new Contact();
      contact.setPhoneNumber("0989989");
      contact.setFirstName("Ojo");
-     contact.setSecondName("oJo");
+     contact.setLastName("oJo");
      contact.setEmail("ojo@gmail.com");
      contactRepository.save(contact);
      assertEquals(1,contactRepository.count());
@@ -36,11 +36,11 @@ public class ContactRepositoryImplementationTest {
  }
  @Test
     void deleteContact_findByIdTest(){
-    ContactRepository contactRepository =  new ContactRepositoryImplementation();
+    ContactRepository contactRepository =  new ContactRepositoryImpl();
     Contact contact = new Contact();
      contact.setPhoneNumber("0989989");
      contact.setFirstName("Ojo");
-     contact.setSecondName("oJo");
+     contact.setLastName("oJo");
      contact.setEmail("ojo@gmail.com");
      contactRepository.save(contact);
      assertEquals(1,contactRepository.count());
@@ -53,11 +53,11 @@ public class ContactRepositoryImplementationTest {
  }
  @Test
     void updateContactTest(){
-     ContactRepository contactRepository =  new ContactRepositoryImplementation();
+     ContactRepository contactRepository =  new ContactRepositoryImpl();
      Contact contact = new Contact();
      contact.setPhoneNumber("0989989");
      contact.setFirstName("Ojo");
-     contact.setSecondName("oJo");
+     contact.setLastName("oJo");
      contact.setEmail("ojo@gmail.com");
      contactRepository.save(contact);
      assertEquals(1,contactRepository.count());
