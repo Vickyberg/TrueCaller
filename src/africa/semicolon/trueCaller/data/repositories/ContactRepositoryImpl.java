@@ -5,7 +5,7 @@ import africa.semicolon.trueCaller.data.models.Contact;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ContactRepositoryImplementation implements ContactRepository{
+public class ContactRepositoryImpl implements ContactRepository{
 
     private  int counter;
 

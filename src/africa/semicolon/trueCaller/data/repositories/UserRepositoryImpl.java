@@ -5,7 +5,7 @@ import africa.semicolon.trueCaller.data.models.User;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserRepositoryImplementation implements UserRepository {
+public class UserRepositoryImpl implements UserRepository {
 
     private  List<User> users = new ArrayList<>();
     private  int counter;
@@ -71,6 +71,16 @@ public class UserRepositoryImplementation implements UserRepository {
         for(User user : users){
             if(user.getUsername().equalsIgnoreCase(username)){
                 return  user;
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public User findByEmail(String email) {
+        for(User foundUser: users) {
+            if (foundUser.getEmail().equalsIgnoreCase(email)) {
+                return foundUser;
             }
         }
         return null;

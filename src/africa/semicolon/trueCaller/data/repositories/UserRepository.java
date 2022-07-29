@@ -18,4 +18,6 @@ public interface UserRepository {
     int getId();
 
     User findByUSerName(String username);
+
+    User findByEmail(String email);
 }

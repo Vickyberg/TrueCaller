@@ -2,7 +2,7 @@ package africa.semicolon.trueCaller.dtos.request;
 
 public class RegisterRequest {
     private String firstName;
-    private String secondName;
+    private String lastName;
     private String phoneNumber;
     private String email;
     private String password;
@@ -16,12 +16,12 @@ public class RegisterRequest {
         this.firstName = firstName;
     }
 
-    public String getSecondName() {
-        return secondName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setSecondName(String secondName) {
-        this.secondName = secondName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getPhoneNumber() {

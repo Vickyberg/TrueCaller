@@ -1,13 +1,19 @@
 package africa.semicolon.trueCaller.utils;
 
+import africa.semicolon.trueCaller.controllers.UserController;
+import africa.semicolon.trueCaller.data.models.Contact;
 import africa.semicolon.trueCaller.dtos.request.AddContactRequest;
 import africa.semicolon.trueCaller.dtos.request.RegisterRequest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Scanner;
-
+@SpringBootApplication
 public class Main {
+    private static UserController userController = new UserController();
     private  static  final Scanner keyboardInput = new Scanner(System.in);
     public static void main(String[] args) {
+        SpringApplication.run(Main.class, args);
         mainMenu();
 
     }
@@ -15,23 +21,28 @@ public class Main {
     private static void mainMenu() {
         String mainMenuPrompt = """
                 Welcome to True Caller
-                1-> Create Account
-                2-> Add Contact to user
-                3-> Find Contact belonging to user
+                1 -> Create Account
+                2 -> Add Contact to user
+                3 -> Find Contact belonging to user
                 """;
 
-        String userInput = input(mainMenuPrompt);
 
-        switch (userInput.charAt(0)) {
-            case 1 -> createAccount();
-            case 2 -> addContactToUser();
-            case 3 -> findContactBelongingToUser();
+
+        switch (input(mainMenuPrompt)) {
+            case "1" -> createAccount();
+            case "2" -> addContactToUser();
+            case "3"-> findContactBelongingToUser();
         }
 
 
     }
 
     private static void findContactBelongingToUser() {
+        var contacts = userController.findContactBelongingTo(input("Enter your email: "));
+        for(Contact contact: contacts) {
+            System.out.println(contact);
+        }
+        mainMenu();
     }
 
     private static void addContactToUser() {
@@ -42,17 +53,19 @@ public class Main {
         contactRequest.setPhoneNumber(input("Enter contact's phone number: "));
         contactRequest.setEmail(input("Enter Contact email: "));
         contactRequest.setUserEmail(input("Enter your email: "));
-//   Todo still have a lot to do
+        userController.addContact(contactRequest);
+        mainMenu();
 
     }
 
     private static void createAccount() {
         RegisterRequest request = new RegisterRequest();
         request.setFirstName(input("Enter first Name:"));
-        request.setSecondName(input("Enter Second Name: "));
+        request.setLastName(input("Enter Last Name: "));
         request.setPhoneNumber(input("Enter phone number: "));
         request.setEmail(input("Enter email: "));
         request.setPassword(input("Enter password: "));
+        userController.registerUser(request);
         mainMenu();
 
 

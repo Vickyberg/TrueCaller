@@ -4,7 +4,7 @@ public class Contact {
     private int id; //identifier
 
     private String firstName;
-    private String secondName;
+    private String lastName;
     private String phoneNumber;
     private String email;
     private String password;
@@ -25,12 +25,12 @@ public class Contact {
         this.firstName = firstName;
     }
 
-    public String getSecondName() {
-        return secondName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setSecondName(String secondName) {
-        this.secondName = secondName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getPhoneNumber() {

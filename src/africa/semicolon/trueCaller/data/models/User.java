@@ -1,10 +1,12 @@
 package africa.semicolon.trueCaller.data.models;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class User {
     private int id;
+
     private String firstName;
     private String lastName;
     private String phoneNumber;
