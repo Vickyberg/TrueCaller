@@ -7,6 +7,8 @@ public class AddContactResponse {
     private String email;
     private String password;
 
+    public String message;
+
     public String getFirstName() {
         return firstName;
     }
@@ -45,5 +47,9 @@ public class AddContactResponse {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }

@@ -1,19 +1,20 @@
-package africa.semicolon.trueCaller.utils;
+package africa.semicolon.trueCaller;
 
 import africa.semicolon.trueCaller.controllers.UserController;
-import africa.semicolon.trueCaller.data.models.Contact;
 import africa.semicolon.trueCaller.dtos.request.AddContactRequest;
 import africa.semicolon.trueCaller.dtos.request.RegisterRequest;
+import africa.semicolon.trueCaller.dtos.responses.AllContactResponse;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Scanner;
 @SpringBootApplication
 public class Main {
-    private static UserController userController = new UserController();
+
     private  static  final Scanner keyboardInput = new Scanner(System.in);
+    private static UserController userController = new UserController();
     public static void main(String[] args) {
-        SpringApplication.run(Main.class, args);
+       SpringApplication.run(Main.class, args);
         mainMenu();
 
     }
@@ -39,7 +40,7 @@ public class Main {
 
     private static void findContactBelongingToUser() {
         var contacts = userController.findContactBelongingTo(input("Enter your email: "));
-        for(Contact contact: contacts) {
+        for(AllContactResponse contact: contacts) {
             System.out.println(contact);
         }
         mainMenu();

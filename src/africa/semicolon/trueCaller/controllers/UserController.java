@@ -4,6 +4,7 @@ import africa.semicolon.trueCaller.data.models.Contact;
 import africa.semicolon.trueCaller.dtos.request.AddContactRequest;
 import africa.semicolon.trueCaller.dtos.request.RegisterRequest;
 import africa.semicolon.trueCaller.dtos.responses.AddContactResponse;
+import africa.semicolon.trueCaller.dtos.responses.AllContactResponse;
 import africa.semicolon.trueCaller.dtos.responses.RegisterResponse;
 import africa.semicolon.trueCaller.services.UserService;
 import africa.semicolon.trueCaller.services.UserServiceImpl;
@@ -25,7 +26,7 @@ public class UserController {
     }
 
     @GetMapping("/user/{email}")
-    public List<Contact> findContactBelongingTo(@PathVariable String email){
+    public List<AllContactResponse> findContactBelongingTo(@PathVariable String email){
         return userService.findAllUserContacts(email);
     }
 }

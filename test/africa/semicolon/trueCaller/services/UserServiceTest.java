@@ -6,7 +6,7 @@ import africa.semicolon.trueCaller.data.repositories.UserRepository;
 import africa.semicolon.trueCaller.data.repositories.UserRepositoryImpl;
 import africa.semicolon.trueCaller.dtos.request.AddContactRequest;
 import africa.semicolon.trueCaller.dtos.request.RegisterRequest;
-import exception.UserExistsException;
+import africa.semicolon.trueCaller.exception.UserExistsException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -9,10 +9,12 @@ import africa.semicolon.trueCaller.data.repositories.UserRepositoryImpl;
 import africa.semicolon.trueCaller.dtos.request.AddContactRequest;
 import africa.semicolon.trueCaller.dtos.request.RegisterRequest;
 import africa.semicolon.trueCaller.dtos.responses.AddContactResponse;
+import africa.semicolon.trueCaller.dtos.responses.AllContactResponse;
 import africa.semicolon.trueCaller.dtos.responses.RegisterResponse;
 import africa.semicolon.trueCaller.utils.Mapper;
-import exception.UserExistsException;
+import africa.semicolon.trueCaller.exception.UserExistsException;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class UserServiceImpl implements UserService {
@@ -67,14 +69,29 @@ public class UserServiceImpl implements UserService {
         user.getContacts().add(newContact);
 
         userRepository.save(user);
-
-        return null;
+        AddContactResponse response = new AddContactResponse();
+        response.setMessage(String.format("%s successfully added", addRequest.getFirstName()));
+        return response;
     }
 
 
     @Override
-    public List<Contact> findAllUserContacts(String email) {
+    public List<AllContactResponse> findAllUserContacts(String email) {
         User user = userRepository.findByEmail(email);
-        return user.getContacts();
+        List<Contact> allUserContacts = user.getContacts();
+        List<AllContactResponse> response = new ArrayList<>();
+        for(var contact : allUserContacts){
+            AllContactResponse singleResponse = new AllContactResponse();
+            Mapper.map(contact,singleResponse);
+            response.add(singleResponse);
+        }
+//        allUserContacts.forEach(contact -> {
+//            AllContactResponse singleResponse = new AllContactResponse();
+ //       Mapper.map(contact,singleResponse);
+//            response.add(singleResponse);
+//        });
+        return response;
+
+
     }
 }

@@ -1,4 +1,4 @@
-package exception;
+package africa.semicolon.trueCaller.exception;
 
 public class UserExistsException extends RuntimeException {
     public  UserExistsException(){

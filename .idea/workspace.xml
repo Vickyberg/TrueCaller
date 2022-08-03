@@ -5,11 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3b7aa9-6f91-4fb0-951f-28c03262c41b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/AllContactResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/utils/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/utils/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/utils/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/utils/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/AddContactResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/AddContactResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/RegisterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/RegisterResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/utils/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/utils/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/UserExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/exception/UserExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/ContactRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/UserRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/request/AddContactRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/request/RegisterRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/responses/AddContactResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/responses/RegisterResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/ContactService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/ContactServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/ContactServiceMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/utils/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/utils/Mapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exception/UserExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImplementationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/africa/semicolon/trueCaller/data/repositories/UserImplementationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/africa/semicolon/trueCaller/services/ContactServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/africa/semicolon/trueCaller/services/UserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +77,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/Olamide/OlamideProjectWork",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Olamide/IdeaProjects/trueCaller-java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;acf7d6bb53a002e1ee6beae3bdf894b3&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="africa.semicolon.trueCaller.services" />
@@ -78,18 +110,21 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="africa.semicolon.trueCaller" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="africa.semicolon.trueCaller.services" />
       <recent name="africa.semicolon.trueCaller.data.repositories" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.utils.Main" />
+    <configuration name="africa.semicolon.trueCaller.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.Main" />
       <module name="TrueCaller-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="africa.semicolon.trueCaller.utils.*" />
+          <option name="PATTERN" value="africa.semicolon.trueCaller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,10 +179,10 @@
     </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="TrueCaller-Java" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="africa.semicolon.trueCaller.utils.Main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="africa.semicolon.trueCaller.Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="africa.semicolon.trueCaller.utils.*" />
+          <option name="PATTERN" value="africa.semicolon.trueCaller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,7 +193,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.africa.semicolon.trueCaller.Main" />
         <item itemvalue="JUnit.ContactServiceTest" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.UserImplementationTest" />
@@ -181,7 +216,9 @@
       <workItem from="1658675455657" duration="302000" />
       <workItem from="1658736021860" duration="2262000" />
       <workItem from="1658868234265" duration="18320000" />
-      <workItem from="1659020516677" duration="16976000" />
+      <workItem from="1659020516677" duration="17927000" />
+      <workItem from="1659513871467" duration="7371000" />
+      <workItem from="1659526974578" duration="950000" />
     </task>
     <servers />
   </component>
