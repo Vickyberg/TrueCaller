@@ -65,7 +65,6 @@ public class Main {
         request.setLastName(input("Enter Last Name: "));
         request.setPhoneNumber(input("Enter phone number: "));
         request.setEmail(input("Enter email: "));
-        request.setPassword(input("Enter password: "));
         request.setUsername(input("Enter username: "));
         userController.registerUser(request);
         mainMenu();

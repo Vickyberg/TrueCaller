@@ -5,41 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3b7aa9-6f91-4fb0-951f-28c03262c41b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/AllContactResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_record_codec_4_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_22.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrueCaller-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TrueCaller-Java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/AddContactResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/AddContactResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/RegisterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/responses/RegisterResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/repositories/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/repositories/ContactRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/data/repositories/UserRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/request/AddContactRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/request/AddContactRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/request/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/dtos/request/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/ContactServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/ContactServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/services/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/utils/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/utils/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/UserExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/trueCaller/exception/UserExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/controllers/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/Contact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/ContactRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/ContactRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/ContactRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/data/repositories/UserRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/request/AddContactRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/request/RegisterRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/responses/AddContactResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/responses/RegisterResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/ContactService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/ContactServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/ContactServiceMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/utils/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/utils/Mapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exception/UserExistsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImplementationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/africa/semicolon/trueCaller/data/repositories/UserImplementationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/africa/semicolon/trueCaller/services/ContactServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/africa/semicolon/trueCaller/services/UserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/request/AddContactRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/request/AddContactRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/request/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/dtos/request/RegisterRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/ContactServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/ContactServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/services/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/utils/Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/africa/semicolon/trueCaller/utils/Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/ContactServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/ContactServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/trueCaller/services/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +121,7 @@
       <recent name="africa.semicolon.trueCaller.data.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main">
+  <component name="RunManager" selected="Application.africa.semicolon.trueCaller.Main">
     <configuration name="africa.semicolon.trueCaller.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.Main" />
       <module name="TrueCaller-Java" />
@@ -192,8 +195,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Main" />
         <item itemvalue="Application.africa.semicolon.trueCaller.Main" />
+        <item itemvalue="Spring Boot.Main" />
         <item itemvalue="JUnit.ContactServiceTest" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.UserImplementationTest" />
@@ -218,7 +221,7 @@
       <workItem from="1658868234265" duration="18320000" />
       <workItem from="1659020516677" duration="17927000" />
       <workItem from="1659513871467" duration="7371000" />
-      <workItem from="1659526974578" duration="950000" />
+      <workItem from="1659526974578" duration="12030000" />
     </task>
     <servers />
   </component>

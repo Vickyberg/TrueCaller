@@ -2,10 +2,7 @@ package africa.semicolon.trueCaller.services;
 
 import africa.semicolon.trueCaller.data.models.Contact;
 import africa.semicolon.trueCaller.data.models.User;
-import africa.semicolon.trueCaller.data.repositories.ContactRepository;
-import africa.semicolon.trueCaller.data.repositories.ContactRepositoryImpl;
 import africa.semicolon.trueCaller.data.repositories.UserRepository;
-import africa.semicolon.trueCaller.data.repositories.UserRepositoryImpl;
 import africa.semicolon.trueCaller.dtos.request.AddContactRequest;
 import africa.semicolon.trueCaller.dtos.request.RegisterRequest;
 import africa.semicolon.trueCaller.dtos.responses.AddContactResponse;
@@ -13,22 +10,22 @@ import africa.semicolon.trueCaller.dtos.responses.AllContactResponse;
 import africa.semicolon.trueCaller.dtos.responses.RegisterResponse;
 import africa.semicolon.trueCaller.utils.Mapper;
 import africa.semicolon.trueCaller.exception.UserExistsException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class UserServiceImpl implements UserService {
-    private final UserRepository userRepository;
+    @Autowired
+    private  UserRepository userRepository;
+    @Autowired
     private ContactService contactService;
 
     public UserServiceImpl(UserRepository userRepository, ContactService contactService) {
         this.userRepository = userRepository;
         this.contactService = contactService;
-    }
-    public UserServiceImpl(){
-        this.userRepository = new UserRepositoryImpl();
-        ContactRepository contactRepository = new ContactRepositoryImpl();
-        this.contactService = new ContactServiceImpl(contactRepository);
     }
 
     @Override
@@ -55,7 +52,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int totalUsers() {
-        return userRepository.count();
+        return (int) userRepository.count();
     }
 
     @Override
@@ -85,11 +82,6 @@ public class UserServiceImpl implements UserService {
             Mapper.map(contact,singleResponse);
             response.add(singleResponse);
         }
-//        allUserContacts.forEach(contact -> {
-//            AllContactResponse singleResponse = new AllContactResponse();
- //       Mapper.map(contact,singleResponse);
-//            response.add(singleResponse);
-//        });
         return response;
 
 
