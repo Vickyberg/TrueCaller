@@ -22,10 +22,6 @@ public class ContactServiceImpl implements ContactService {
          return contact1;
     }
 
-    @Override
-    public int totalContacts() {
-        return 0;
-    }
 
 
 }

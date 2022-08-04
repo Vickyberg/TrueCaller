@@ -5,5 +5,4 @@ import africa.semicolon.trueCaller.data.models.Contact;
 public interface ContactService  {
     Contact addNewContact(Contact contact);
 
-    int totalContacts();
 }
