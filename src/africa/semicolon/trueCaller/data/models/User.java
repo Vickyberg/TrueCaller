@@ -15,7 +15,7 @@ import java.util.List;
 @NoArgsConstructor
 public class User {
     @Id
-    private String id;
+    private int id;
 
     private String firstName;
     private String lastName;
@@ -24,6 +24,7 @@ public class User {
     private String username;
     @DBRef
 private List<Contact> contacts = new ArrayList<>();
+
 
 
 }

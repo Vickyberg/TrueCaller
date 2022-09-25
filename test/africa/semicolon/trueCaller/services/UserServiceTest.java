@@ -30,7 +30,7 @@ class UserServiceTest {
         request = new RegisterRequest();
         request.setEmail("johnford@gmail.com");
         request.setUsername("johnford2");
-        request.setPassword("johnny234");
+
     }
 
     @Test
@@ -48,7 +48,7 @@ class UserServiceTest {
         request1.setEmail("johnford@gmail.com");
 
         request1.setUsername("ashford2");
-        request1.setPassword("ashy1234");
+
 
         assertThrows(UserExistsException.class, () -> userService.register(request1));
         assertEquals(1, userService.totalUsers());
